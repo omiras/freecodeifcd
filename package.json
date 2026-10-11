@@ -2,8 +2,7 @@
   "name": "curso-html-freecodecampos",
   "private": true,
   "scripts": {
-    "start": "freecodecamp-server",
-    "validate": "create-freecodecamp-os-app validate"
+    "start": "node scripts/start.js"
   },
   "dependencies": {
     "@freecodecamp/freecodecamp-os": "^4.0.0"

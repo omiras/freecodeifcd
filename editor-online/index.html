@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Laboratorio HTML · 3 ejercicios</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><span class="brand-mark">&lt;/&gt;</span><span>Laboratorio HTML</span></div>
+    <span class="course-label">Curso de ejemplo · 3 ejercicios</span>
+  </header>
+
+  <main class="workspace">
+    <aside class="lesson-panel" aria-label="Instrucciones del ejercicio">
+      <div class="eyebrow" id="lesson-count">Ejercicio 1 de 3</div>
+      <h1 id="lesson-title"></h1>
+      <p id="lesson-description"></p>
+      <div class="tip"><strong>Pista</strong><p id="lesson-hint"></p></div>
+      <div class="lesson-nav" aria-label="Navegación entre ejercicios">
+        <button id="previous" type="button" class="button secondary">Anterior</button>
+        <button id="next" type="button" class="button secondary" disabled>Siguiente</button>
+      </div>
+    </aside>
+
+    <section class="work-panel" aria-label="Editor y vista previa">
+      <div class="pane editor-pane">
+        <div class="pane-header"><span class="file-name">index.html</span><span>HTML</span></div>
+        <label class="sr-only" for="code">Escribe aquí el código HTML</label>
+        <textarea id="code" spellcheck="false" autocomplete="off" autocapitalize="off" aria-describedby="editor-help"></textarea>
+        <div class="pane-footer"><span id="editor-help">Tu código se guarda en este navegador.</span><button id="reset" type="button" class="text-button">Restablecer código</button></div>
+      </div>
+
+      <div class="pane preview-pane">
+        <div class="pane-header"><span>Vista previa</span><span class="live-dot">En directo</span></div>
+        <iframe id="preview" title="Vista previa del HTML" sandbox=""></iframe>
+        <div class="test-panel" aria-live="polite">
+          <div class="test-heading"><strong>Resultados de las pruebas</strong><button id="run-tests" type="button" class="button primary">Ejecutar pruebas</button></div>
+          <ul id="results"><li class="muted">Escribe el código y ejecuta las pruebas.</li></ul>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,12 +1,12 @@
 # HTML básico en 3 ejercicios
 
-Aprende a añadir contenido sencillo a una página HTML. Editarás `html-basico/index.html` y usarás el botón **Run Tests** para comprobar cada paso.
+Aprende a añadir contenido sencillo a una página HTML. Abre esta misma carpeta en **Visual Studio Code** y edita `html-basico/index.html` en el editor. La página de freeCodeCampOS muestra las instrucciones y las pruebas; el código se escribe en el archivo. Después usa **Run Tests** para comprobar cada paso.
 
 ## 0
 
 ### --description--
 
-**Ejercicio 1: un título.** Abre `html-basico/index.html` y añade dentro de `<body>` un título principal (`<h1>`) cuyo texto sea `Mi primera página`.
+**Ejercicio 1: un título.** En Visual Studio Code, abre `html-basico/index.html` desde el explorador de archivos. Añade dentro de `<body>` un título principal (`<h1>`) cuyo texto sea `Mi primera página`. Guarda el archivo y vuelve a esta página para pulsar **Run Tests**.
 
 ### --tests--
 
@@ -97,4 +97,3 @@ assert.match(__html, /<a\b[^>]*href\s*=\s*["']https:\/\/www\.freecodecamp\.org\/
 
 Escribe `<a href="https://www.freecodecamp.org/">Visitar freeCodeCamp</a>` después de `</p>`.
 
-## --fcc-end--

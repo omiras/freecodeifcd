@@ -2,6 +2,10 @@
 
 Sí: [freeCodeCampOS](https://github.com/freeCodeCamp/freeCodeCampOS) permite crear y ejecutar cursos propios. Este ejemplo contiene un proyecto con tres ejercicios de HTML y pruebas automáticas.
 
+## Opción con editor en el navegador
+
+Abre `editor-online/index.html` en un navegador para ver los mismos tres ejercicios con editor HTML, vista previa y pruebas integradas. Esta versión funciona sin instalar paquetes ni arrancar freeCodeCampOS. Guarda el progreso en el almacenamiento local de ese navegador. Es una aplicación de ejemplo independiente: las modificaciones hechas en este editor no cambian `html-basico/index.html`.
+
 ## Cómo abrirlo
 
 La versión actual del paquete oficial solo distribuye el servidor para Linux y macOS. En Windows, utiliza WSL con una distribución Linux y Node.js 20 o superior instalado **dentro de WSL**.
@@ -10,9 +14,9 @@ La versión actual del paquete oficial solo distribuye el servidor para Linux y 
 2. Ejecuta `npm install`.
 3. Ejecuta `npm start`.
 4. Abre `http://localhost:8080` en el navegador de Windows y selecciona **HTML básico en 3 ejercicios**.
-5. Edita `html-basico/index.html` y pulsa **Run Tests** para avanzar.
+5. Abre esta carpeta en Visual Studio Code, edita y guarda `html-basico/index.html`, y vuelve a la página del curso para pulsar **Run Tests**. La página del curso no incluye un editor de código.
 
-`npm install` descarga `@freecodecamp/freecodecamp-os` y su ejecutable para Linux. `freecodecamp-server` es el nombre del ejecutable dentro de ese paquete, no un paquete independiente de npm. El curso está escrito en español; la clave técnica `english` se conserva porque freeCodeCampOS la exige como idioma predeterminado.
+`npm install` descarga `@freecodecamp/freecodecamp-os` y su ejecutable para Linux. Ejecuta tanto `npm install` como `npm start` **dentro de WSL**, con el Node.js de Linux. La versión 4.0.0 tiene un error en su lanzador; `npm start` usa `scripts/start.js` para ejecutar directamente el binario instalado. El curso está escrito en español; la clave técnica `english` se conserva porque freeCodeCampOS la exige como idioma predeterminado.
 
 ## Dónde modificar el curso
 
