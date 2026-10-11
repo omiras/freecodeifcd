@@ -1,0 +1,11 @@
+{
+  "name": "curso-html-freecodecampos",
+  "private": true,
+  "scripts": {
+    "start": "freecodecamp-server",
+    "validate": "create-freecodecamp-os-app validate"
+  },
+  "dependencies": {
+    "@freecodecamp/freecodecamp-os": "^4.1.0"
+  }
+}

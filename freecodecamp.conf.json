@@ -1,0 +1,21 @@
+{
+  "version": "4.0.0",
+  "port": 8080,
+  "client": {
+    "landing": {
+      "english": {
+        "title": "HTML básico en 3 ejercicios",
+        "description": "Un curso breve para practicar títulos, párrafos y enlaces en HTML."
+      }
+    }
+  },
+  "config": {
+    "projects.json": "./config/projects.json",
+    "state.json": "./config/state.json"
+  },
+  "curriculum": {
+    "locales": {
+      "english": "./curriculum/locales/english"
+    }
+  }
+}

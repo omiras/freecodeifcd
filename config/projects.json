@@ -1,0 +1,13 @@
+[
+  {
+    "id": "dfcbb5f0-2e0c-4e6a-9fc0-a5982ce9ef15",
+    "title": "HTML básico en 3 ejercicios",
+    "dashed_name": "html-basico",
+    "order": 0,
+    "is_integrated": false,
+    "is_public": true,
+    "run_tests_on_watch": false,
+    "seed_every_lesson": false,
+    "is_reset_enabled": true
+  }
+]
