@@ -17,10 +17,10 @@ La versión actual del paquete oficial solo distribuye el servidor para Linux y 
 ## Dónde modificar el curso
 
 - `curriculum/locales/english/html-basico.md`: enunciados, pruebas, pistas y código inicial.
-- `config/projects.json`: nombre y opciones del proyecto.
+- `config/projects.json`: identificador y opciones del proyecto. El título está en el archivo del currículo.
 - `freecodecamp.conf.json`: configuración general.
 - `html-basico/index.html`: archivo que edita quien realiza los ejercicios.
 
-Para revisar la configuración con la herramienta oficial, ejecuta `npx create-freecodecamp-os-app validate` desde esta carpeta, también dentro de WSL.
+La CLI `create-freecodecamp-os-app` no está publicada en npm con ese nombre, así que el comando `npx create-freecodecamp-os-app validate` devuelve 404. La CLI está en el [código fuente de freeCodeCampOS](https://github.com/freeCodeCamp/freeCodeCampOS/tree/v4.0.0/cli).
 
 Basado en la [guía de inicio](https://github.com/freeCodeCamp/freeCodeCampOS/blob/main/docs/src/getting-started.md), la [configuración](https://github.com/freeCodeCamp/freeCodeCampOS/blob/main/docs/src/configuration.md) y la [sintaxis de proyectos](https://github.com/freeCodeCamp/freeCodeCampOS/blob/main/docs/src/project-syntax.md) de freeCodeCampOS.

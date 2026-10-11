@@ -6,6 +6,9 @@
     "validate": "create-freecodecamp-os-app validate"
   },
   "dependencies": {
-    "@freecodecamp/freecodecamp-os": "^4.1.0"
+    "@freecodecamp/freecodecamp-os": "^4.0.0"
+  },
+  "allowScripts": {
+    "@freecodecamp/freecodecamp-os": true
   }
 }
